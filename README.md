@@ -1,1 +1,6 @@
-# Todo-app-using-LinkedList-C-
+# Todo-app-using-LinkedList-C++
+
+To implement a to-do list application in c++ using LinkedList, the “task” string and the to-do list is needed to store in the data field of the LinkedList. As the to-do list instance can also be implemented with LinkedList, we have to use nested LinkedList. Here are 4 class namely, node, LinkedList, node_for_todo_list, and LinkedList_for_todo_list is created. Node is a simple data structure to store a string as data. LinkedList being a chain of nodes can serve as a to-do list object. So, a name field is added to the LinkedList structure to identify the LinkedList with a name of to-do list.
+This structure is enough to implement simple to-do list. To allow user to create unlimited to-do lists, we need another LinkedList having nodes that can store instances of to-do list. It is basically list of lists. So, a global instance of LinkedList_for_todo_list namely ToDo_List is created which can store unlimited to-do list. 
+Then all the basic functions of LinkedList like inserting and deletion by various method is implemented. A clean user interface is provided using different function to access and interact with the properties of application conveniently. 
+
